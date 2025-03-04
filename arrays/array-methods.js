@@ -45,13 +45,3 @@ arr.sort( (a, b) => a - b ); // сортировка чисел в массив�
 const sum = arr.reduce((acc, num) => acc + num, 0) // сумма чисел массива
 
 
-
-
-
-
-
-
-
-const sumArray = (arr) => arr.reduce((num, acc) => acc + num, 0)
-
-console.log(sumArray([2, 3, 45, 2]))
